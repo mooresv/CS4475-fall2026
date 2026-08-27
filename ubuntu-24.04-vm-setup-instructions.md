@@ -1,6 +1,6 @@
 # Installing Ubuntu 24.04 LTS in a VM — Student Instructions
 
-These instructions cover both Windows laptops and MacBooks. Follow the section for your machine. **Read the "Which VMM should I use?" section first** — the right choice depends on whether your Mac has Apple Silicon (M1/M2/M3/M4) or an Intel chip.
+These instructions were generated using Claude AI and cover both Windows laptops and MacBooks. Follow the section for your machine. **Read the "Which VMM should I use?" section first** — the right choice depends on whether your Mac has Apple Silicon (M1/M2/M3/M4) or an Intel chip.
 
 ## Minimum VM specs
 - 4 GB RAM allocated to the VM (6–8 GB recommended if your laptop can spare it)
@@ -24,7 +24,7 @@ These instructions cover both Windows laptops and MacBooks. Follow the section f
 ## Step 1 — Download Ubuntu 24.04 LTS
 
 Go to **ubuntu.com/download/desktop** and download the correct image:
-- **Intel/AMD (Windows PCs and Intel Macs):** the standard `ubuntu-24.04.x-desktop-amd64.iso` (use the latest point release, e.g. 24.04.3)
+- **Intel/AMD (Windows PCs and Intel Macs):** the standard `ubuntu-24.04.x-desktop-amd64.iso` (use the latest point release, e.g. 24.04.4)
 - **Apple Silicon Macs:** the `arm64` server or desktop image (Apple Silicon VMs generally use the ARM64 build — check current UTM/Fusion documentation for the recommended image)
 
 Verify the SHA256 checksum against the value posted on the download page before installing.
